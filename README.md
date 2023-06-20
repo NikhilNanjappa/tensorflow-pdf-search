@@ -1,5 +1,5 @@
 # tensorflow-pdf-search
-This module will let you upload a PDF and then search for anything within the PDF content. The question needs to be very specific and accurate or it will not return an answer. Hopefully, the model would have improved in the future.
+This module will let you upload a PDF and then lets you ask any question related to the PDF content. The question needs to be very specific and accurate or it will not return an answer. Hopefully, the model would have improved in the future.
 
 **Model used**: TensorFlow QNA model
 
