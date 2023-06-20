@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PDF Search with TensorFlow.js</title>
+  </head>
+  <body>
+    <h1>PDF Search with TensorFlow.js</h1>
+    <input type="file" id="pdf-file" accept=".pdf" />
+    <br /><br />
+    <label for="question">Question:</label>
+    <input type="text" id="question" style="width: 50%" />
+    <button id="search">Search</button>
+    <br /><br />
+    <div id="answer"></div>
+
+    <!-- Load TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <!-- Load the pre-trained QnA model -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/qna"></script>
+    <!-- Load PDF.js -->
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+    <!-- Load custom script -->
+    <script src="index.js"></script>
+  </body>
+</html>
